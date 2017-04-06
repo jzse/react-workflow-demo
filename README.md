@@ -1,5 +1,7 @@
 # react-workflow-demo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jzse/react-workflow-demo.svg)](https://greenkeeper.io/)
+
 [![Build Status][travis-svg]][travis-url]
 [![NPM dependency status][david-dep-svg]][david-dep-url]
 [![NPM dev dependency status][david-dev-dep-svg]][david-dev-dep-url]
