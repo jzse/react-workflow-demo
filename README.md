@@ -1,6 +1,8 @@
 # react-workflow-demo
 
 [![Build Status][travis-svg]][travis-url]
+[![NPM dependency status][david-dep-svg]][david-dep-url]
+[![NPM dev dependency status][david-dev-dep-svg]][david-dev-dep-url]
 
 Demo for a simple `create-react-app` app development workflow.
 
@@ -13,3 +15,7 @@ Demo for a simple `create-react-app` app development workflow.
 [project-url]: https://jzse.github.io/react-workflow-demo
 [travis-svg]: https://travis-ci.org/jzse/react-workflow-demo.svg
 [travis-url]: https://travis-ci.org/jzse/react-workflow-demo
+[david-dep-svg]: https://david-dm.org/jzse/react-workflow-demo.svg
+[david-dep-url]: https://david-dm.org/jzse/react-workflow-demo
+[david-dev-dep-svg]: https://david-dm.org/jzse/react-workflow-demo/dev-status.svg
+[david-dev-dep-url]: https://david-dm.org/jzse/react-workflow-demo?type=dev
