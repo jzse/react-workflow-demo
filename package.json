@@ -7,6 +7,8 @@
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
@@ -19,7 +21,13 @@
     "build": "react-scripts build && cp .netlify/_redirects build",
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint ./src",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "commit": "git-cz"
   },
-  "homepage": "https://jzse.github.io/react-workflow-demo"
+  "homepage": "https://jzse.github.io/react-workflow-demo",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
