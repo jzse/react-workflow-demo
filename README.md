@@ -8,7 +8,7 @@ Demo for a simple `create-react-app` app development workflow.
 
 * [Live site][project-url] is deployed from the master branch
   * Travis CI tests, builds and deploys to GitHub Pages
-  * Netlify creates a mirror build and deploys to its own platform
+  * Netlify runs `npm run build` and deploys to its own platform
 * Changes are made by pull request
   * Netlify will build the branch and deploy to a [deploy preview URL](https://deploy-preview-3--jzse.netlify.com/) for review
 * Better quality code commits
