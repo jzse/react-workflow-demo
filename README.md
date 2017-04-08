@@ -14,7 +14,7 @@ Demo for a simple `create-react-app` app development workflow.
 * Better quality code commits
   * [lint-stage](https://github.com/okonet/lint-staged): allow only properly formatted JS to be committed
   * [husky](https://github.com/typicode/husky): run npm scripts (lint-stage) on any git hook
-  * [commitizen](https://github.com/commitizen/cz-cli): provide commit message template options when using `yarn commit` in place of `git commit`
+  * [commitizen](https://github.com/commitizen/cz-cli): provide commit message template options when using `npm run commit` in place of `git commit`
 
 ## Quickstart
 
@@ -22,7 +22,7 @@ Demo for a simple `create-react-app` app development workflow.
 # Demo the site
 git clone git@github.com:jzse/react-workflow-demo.git
 cd react-workflow-demo
-yarn start
+npm run start
 ```
 
 
