@@ -10,7 +10,7 @@ Demo for a simple `create-react-app` app development workflow.
   * Travis CI tests, builds and deploys to GitHub Pages
   * Netlify runs `npm run build` and deploys to its own platform
 * Changes are made by pull request
-  * Netlify will build the branch and deploy to a [deploy preview URL](https://deploy-preview-3--jzse.netlify.com/) for review
+  * Netlify will build the branch and deploy to a new [deploy preview URL](https://deploy-preview-3--jzse.netlify.com/) for review
 * Better quality code commits
   * [lint-stage](https://github.com/okonet/lint-staged): allow only properly formatted JS to be committed
   * [husky](https://github.com/typicode/husky): run npm scripts (lint-stage) on any git hook
